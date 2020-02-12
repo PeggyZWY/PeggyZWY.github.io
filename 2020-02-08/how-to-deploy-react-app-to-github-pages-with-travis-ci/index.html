@@ -5,13 +5,13 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="dns-prefetch" href="https://peggyzwy.github.io">
+  <link rel="dns-prefetch" href="http://wenyizhao.me">
   <title>How to Deploy React App to GitHub Pages With Travis CI | Wenyi&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="google-site-verification" content="0gbCiByppQycxFXGOUd3hou3pCEvScV86ofMcI6QNX4">
   <meta property="og:type" content="article">
 <meta property="og:title" content="How to Deploy React App to GitHub Pages With Travis CI">
-<meta property="og:url" content="https://peggyzwy.github.io/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/index.html">
+<meta property="og:url" content="http://wenyizhao.me/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/index.html">
 <meta property="og:site_name" content="Wenyi&#39;s Blog">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/00_speech_bubble_me_1.png">
@@ -239,7 +239,7 @@
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/04_package_json_for_deploy.png" alt="04_package_json_for_deploy">  </p>
 <h3 id="4-Deploy"><a href="#4-Deploy" class="headerlink" title="4. Deploy!"></a>4. Deploy!</h3><p>After running <code>npm run deploy</code>, you will expect to see a successful message as below:  </p>
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/05_successful_npm_run_deploy.png" alt="05_successful_npm_run_deploy">  </p>
-<p>Go to <a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo</a>, you will see the React app running is completely the same as what we saw just now locally.  </p>
+<p>Go to <a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo" target="_blank" rel="external nofollow noopener noreferrer">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo</a>, you will see the React app running is completely the same as what we saw just now locally.  </p>
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/06_homepage_gh_pages.png" alt="06_homepage_gh_pages">  </p>
 <p>Currently there is only one branch (<code>gh-pages</code>) there:  </p>
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/07_branch_gh_pages.png" alt></p>
@@ -276,7 +276,7 @@
 <p>For more configuration, please see <a href="https://docs.travis-ci.com/user/deployment/pages/" target="_blank" rel="external nofollow noopener noreferrer">https://docs.travis-ci.com/user/deployment/pages/</a>.</p>
 <h3 id="6-Push-Code-to-Master"><a href="#6-Push-Code-to-Master" class="headerlink" title="6. Push Code to Master"></a>6. Push Code to Master</h3><p>Push code to this GitHub repository will trigger GitHub to notify Travis by Webhooks. Hopefully you will see the project is successfully built.  </p>
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/13_travis_successful_build.png" alt="13_travis_successful_build">  </p>
-<p>Go back to the GitHub Pages (<a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/</a>), it’s still working well.  </p>
+<p>Go back to the GitHub Pages (<a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/" target="_blank" rel="external nofollow noopener noreferrer">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/</a>), it’s still working well.  </p>
 <h3 id="7-Simple-Workflow"><a href="#7-Simple-Workflow" class="headerlink" title="7. Simple Workflow"></a>7. Simple Workflow</h3><p>Basically, we are already done here. After setup, later we only need to do normal git operations to push code to source code branch. As soon as it’s built successfully on Travis, GitHub Pages will change automatically.  </p>
 <p>Let’s change the React title to <code>Hello Travis!</code> in <code>public/index.html</code>. </p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello Travis!<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -284,7 +284,7 @@
 <p>Then push code to master.  </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">'Change title'</span></span><br><span class="line">$ git push</span><br></pre></td></tr></table></figure>
 
-<p>After this, we only need to wait for Travis to build and then deploy code on GitHub Pages if the build is able to pass. We will see the change reflected in GitHub Pages (<a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/</a>).  </p>
+<p>After this, we only need to wait for Travis to build and then deploy code on GitHub Pages if the build is able to pass. We will see the change reflected in GitHub Pages (<a href="https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/" target="_blank" rel="external nofollow noopener noreferrer">https://peggyzwy.github.io/react-travis-ci-gh-pages-demo/</a>).  </p>
 <p><img src="https://raw.githubusercontent.com/PeggyZWY/images/master/github-blog/2020-02-08-how-to-deploy-react-app-to-github-pages-with-travis-ci/14_new_name.png" alt="14_new_name"></p>
 
       

@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://peggyzwy.github.io/"/>
+  <link href="http://wenyizhao.me/"/>
   <updated>2020-02-08T07:31:04.102Z</updated>
-  <id>https://peggyzwy.github.io/</id>
+  <id>http://wenyizhao.me/</id>
   
   <author>
     <name>Wenyi Zhao</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>How to Deploy React App to GitHub Pages With Travis CI</title>
-    <link href="https://peggyzwy.github.io/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/"/>
-    <id>https://peggyzwy.github.io/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/</id>
+    <link href="http://wenyizhao.me/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/"/>
+    <id>http://wenyizhao.me/2020-02-08/how-to-deploy-react-app-to-github-pages-with-travis-ci/</id>
     <published>2020-02-08T03:53:06.000Z</published>
     <updated>2020-02-08T07:31:04.102Z</updated>
     
@@ -34,17 +34,17 @@
     </summary>
     
     
-      <category term="front end" scheme="https://peggyzwy.github.io/categories/front-end/"/>
+      <category term="front end" scheme="http://wenyizhao.me/categories/front-end/"/>
     
-      <category term="CI/CD" scheme="https://peggyzwy.github.io/categories/CI-CD/"/>
+      <category term="CI/CD" scheme="http://wenyizhao.me/categories/CI-CD/"/>
     
     
   </entry>
   
   <entry>
     <title>How to Create a Blog Using Hexo in 10 Minutes</title>
-    <link href="https://peggyzwy.github.io/2020-02-03/how-to-create-a-blog-using-Hexo-in-10-minutes/"/>
-    <id>https://peggyzwy.github.io/2020-02-03/how-to-create-a-blog-using-Hexo-in-10-minutes/</id>
+    <link href="http://wenyizhao.me/2020-02-03/how-to-create-a-blog-using-Hexo-in-10-minutes/"/>
+    <id>http://wenyizhao.me/2020-02-03/how-to-create-a-blog-using-Hexo-in-10-minutes/</id>
     <published>2020-02-03T08:43:43.000Z</published>
     <updated>2020-02-08T07:37:14.552Z</updated>
     
@@ -60,7 +60,7 @@
     </summary>
     
     
-      <category term="front end" scheme="https://peggyzwy.github.io/categories/front-end/"/>
+      <category term="front end" scheme="http://wenyizhao.me/categories/front-end/"/>
     
     
   </entry>
